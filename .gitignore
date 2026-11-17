@@ -1,0 +1,24 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Databases & Personal Music Data
+*.db
+*.sqlite
+*.sqlite3
+backend/data/*.xml
+backend/data/*.csv
+backend/data/*.json
+!backend/data/collection.example.csv
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Node / Frontend
+node_modules/
+dist/
+.vercel/
